@@ -22,7 +22,7 @@ struct ContentView: View {
                 Text("Submit").padding().background(Color.blue).foregroundColor(Color.white).clipShape(RoundedRectangle(cornerRadius: 30))
             }).padding()
             Text(self.message).padding()
-        }.background(Color.indigo).padding()
+        }.padding()
     }
 }
 
